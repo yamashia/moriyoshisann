@@ -1,0 +1,80 @@
+@charcet "UTF-8"
+
+html {
+	font-size:62.5%
+}
+body {
+	color:#333;
+	font-size:1.2rem;
+	font-family:"Hiragino Kaku Gothic ProN",Meiryo.sans-serif;
+}
+*.*::after{
+	box-sizing:border-box;
+}
+a:link,a:visited,a:hover,a:active{
+	color:#d03c56;
+	text-decoration:none;
+}
+
+.header {
+	width:100%;
+	padding:28px 0 10px;
+	background:url('../images/bg-header.gif')repeat-x;
+	box-shadow:0 0 10px 1px #e3e3e3;
+	
+}
+
+.wrapper {
+	width:970px;
+	margin:30px auto 40px;
+}
+
+.main {
+	display:block;
+	float:left;
+	width:660px;
+}
+
+.sidemenu {
+	float:right;
+	width:275px;
+}
+
+.footer {
+	width:100%;
+}
+
+.clearfix::after{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.logo {
+	width:225px;
+	height:56px;
+	margin:0 auto;
+	background:url('../images/logo.png')no-repeat;
+	overflow:hidden;
+	text-indent:100%;
+	white-space:nowrap;
+}
+.logo a {
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+table.bookshelf {
+	border-collapse: collapse;
+	border: 2px solid green; /* 外枠を太く */
+}
+table.bookshelf td,
+table.bookshelf th {
+	border: 1px solid green;  /* 内側の線 */
+	padding: 0.25em;  /* セル内の余白 */
+}
+table.bookshelf thead th {
+	border-bottom: 3px double green; /* ヘッダ行の下線 */
+}
+
